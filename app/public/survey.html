@@ -216,9 +216,9 @@
 	    	}
 	      // console.log(userData);
 			// Grab the URL of the website
-	    	var currentURL = window.location.origin;
+	    	
 	    	// post the data to the friends API. 
-	    	$.post(currentURL + "/api/friends", userData, function(data){
+	    	$.post("/api/friends", userData, function(data){
 	    		
 	    		$("#matchName").text(data.name);
 	    		$('#matchImg').attr("src", data.photo);

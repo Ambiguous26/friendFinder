@@ -14,6 +14,20 @@ var friends = [
         5,
         4,
         1
+      ],
+      "name":"Eye Killyou",
+    "photo":"https://gamebanana.com/sprays/46909.jpg",
+    "scores":[
+        3,
+        3,
+        5,
+        5,
+        1,
+        2,
+        3,
+        1,
+        2,
+        5
       ]
   }
 
